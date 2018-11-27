@@ -1,0 +1,7 @@
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\bin\Debug\CodeDownload.exe.config
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\bin\Debug\CodeDownload.exe
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\bin\Debug\CodeDownload.pdb
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\obj\Debug\CodeDownload.csprojAssemblyReference.cache
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\obj\Debug\CodeDownload.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\obj\Debug\CodeDownload.exe
+C:\Users\Владелец\source\repos\CodeDownload\CodeDownload\obj\Debug\CodeDownload.pdb

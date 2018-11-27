@@ -1,0 +1,7 @@
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\bin\Debug\ExprParsing.dll
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\bin\Debug\ExprParsing.pdb
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\bin\Debug\Expression.dll
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\obj\Debug\ExprParsing.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\obj\Debug\ExprParsing.csproj.CopyComplete
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\obj\Debug\ExprParsing.dll
+C:\Users\Владелец\source\repos\ExprParsing\ExprParsing\obj\Debug\ExprParsing.pdb
