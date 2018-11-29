@@ -1,0 +1,707 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Expression.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Expression.Fakes.ShimBinaryOperation">
+            <summary>Тип оболочки совместимости для Expression.BinaryOperation</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimBinaryOperation.#ctor(Expression.BinaryOperation)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimBinaryOperation.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimBinaryOperation.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimBinaryOperation.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimBinaryOperation.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimBinaryOperation.ConstructorExprExpr">
+            <summary>Задает оболочка совместимости BinaryOperation.BinaryOperation(Expr operand1, Expr operand2)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimConstant">
+            <summary>Тип оболочки совместимости для Expression.Constant</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimConstant.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimConstant.#ctor(Expression.Constant)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimConstant.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает оболочка совместимости Constant.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.ConstGet">
+            <summary>Задает оболочка совместимости Constant.get_Const()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.Diff">
+            <summary>Задает оболочка совместимости Constant.Diff()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.IsConstantGet">
+            <summary>Задает оболочка совместимости Constant.get_IsConstant()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.IsConstantSetBoolean">
+            <summary>Задает оболочка совместимости Constant.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости Constant.ToString()</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimConstant.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimConstant.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает оболочка совместимости Constant.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.ConstGet">
+            <summary>Задает оболочка совместимости Constant.get_Const()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.ConstructorObject">
+            <summary>Задает оболочка совместимости Constant.Constant(Object Constant)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.Diff">
+            <summary>Задает оболочка совместимости Constant.Diff()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.IsConstantGet">
+            <summary>Задает оболочка совместимости Constant.get_IsConstant()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.IsConstantSetBoolean">
+            <summary>Задает оболочка совместимости Constant.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimConstant.ToString">
+            <summary>Задает оболочка совместимости Constant.ToString()</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimExpr">
+            <summary>Тип оболочки совместимости для Expression.Expr</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimExpr.#ctor(Expression.Expr)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.AdditionOpDoubleExpr">
+            <summary>Задает оболочка совместимости Expr.op_Addition(Double Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.AdditionOpExprDouble">
+            <summary>Задает оболочка совместимости Expr.op_Addition(Expr Operand1, Double Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.AdditionOpExprExpr">
+            <summary>Задает оболочка совместимости Expr.op_Addition(Expr Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimExpr.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimExpr.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimExpr.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.Constructor">
+            <summary>Задает оболочка совместимости Expr.Expr()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.DivisionOpDoubleExpr">
+            <summary>Задает оболочка совместимости Expr.op_Division(Double Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.DivisionOpExprDouble">
+            <summary>Задает оболочка совместимости Expr.op_Division(Expr Operand1, Double Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.DivisionOpExprExpr">
+            <summary>Задает оболочка совместимости Expr.op_Division(Expr Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.MultiplyOpDoubleExpr">
+            <summary>Задает оболочка совместимости Expr.op_Multiply(Double Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.MultiplyOpExprDouble">
+            <summary>Задает оболочка совместимости Expr.op_Multiply(Expr Operand1, Double Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.MultiplyOpExprExpr">
+            <summary>Задает оболочка совместимости Expr.op_Multiply(Expr Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.SubtractionOpDoubleExpr">
+            <summary>Задает оболочка совместимости Expr.op_Subtraction(Double Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.SubtractionOpExprDouble">
+            <summary>Задает оболочка совместимости Expr.op_Subtraction(Expr Operand1, Double Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.SubtractionOpExprExpr">
+            <summary>Задает оболочка совместимости Expr.op_Subtraction(Expr Operand1, Expr Operand2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.UnaryNegationOpExpr">
+            <summary>Задает оболочка совместимости Expr.op_UnaryNegation(Expr Operand)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimExpr.UnaryPlusOpExpr">
+            <summary>Задает оболочка совместимости Expr.op_UnaryPlus(Expr Operand)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimFun">
+            <summary>Тип оболочки совместимости для Expression.Fun</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFun.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.AcosObject">
+            <summary>Задает оболочка совместимости Fun.Acos(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ActanObject">
+            <summary>Задает оболочка совместимости Fun.Actan(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ArchObject">
+            <summary>Задает оболочка совместимости Fun.Arch(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ArcthObject">
+            <summary>Задает оболочка совместимости Fun.Arcth(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ArshObject">
+            <summary>Задает оболочка совместимости Fun.Arsh(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ArthObject">
+            <summary>Задает оболочка совместимости Fun.Arth(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.AsinObject">
+            <summary>Задает оболочка совместимости Fun.Asin(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.AtanObject">
+            <summary>Задает оболочка совместимости Fun.Atan(Object arg)</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFun.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFun.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ChObject">
+            <summary>Задает оболочка совместимости Fun.Ch(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.CosObject">
+            <summary>Задает оболочка совместимости Fun.Cos(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.CtanObject">
+            <summary>Задает оболочка совместимости Fun.Ctan(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.CthObject">
+            <summary>Задает оболочка совместимости Fun.Cth(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.LogObject">
+            <summary>Задает оболочка совместимости Fun.Log(Object arg1)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.LogObjectObject">
+            <summary>Задает оболочка совместимости Fun.Log(Object arg1, Object arg2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.PowObjectObject">
+            <summary>Задает оболочка совместимости Fun.Pow(Object arg1, Object arg2)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ShObject">
+            <summary>Задает оболочка совместимости Fun.Sh(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.SinObject">
+            <summary>Задает оболочка совместимости Fun.Sin(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.TanObject">
+            <summary>Задает оболочка совместимости Fun.Tan(Object arg)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFun.ThObject">
+            <summary>Задает оболочка совместимости Fun.Th(Object arg)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimFunction">
+            <summary>Тип оболочки совместимости для Expression.Function</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFunction.#ctor(Expression.Function)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimFunction.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFunction.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimFunction.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFunction.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFunction.Constructor">
+            <summary>Задает оболочка совместимости Function.Function()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimFunction.ConstructorObject">
+            <summary>Задает оболочка совместимости Function.Function(Object arg)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimUnaryOperation">
+            <summary>Тип оболочки совместимости для Expression.UnaryOperation</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimUnaryOperation.#ctor(Expression.UnaryOperation)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimUnaryOperation.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimUnaryOperation.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimUnaryOperation.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimUnaryOperation.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimUnaryOperation.ConstructorExpr">
+            <summary>Задает оболочка совместимости UnaryOperation.UnaryOperation(Expr operand)</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimVariable">
+            <summary>Тип оболочки совместимости для Expression.Variable</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimVariable.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimVariable.#ctor(Expression.Variable)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Fakes.ShimVariable.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает оболочка совместимости Variable.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.Diff">
+            <summary>Задает оболочка совместимости Variable.Diff()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.IsConstantGet">
+            <summary>Задает оболочка совместимости Variable.get_IsConstant()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.IsConstantSetBoolean">
+            <summary>Задает оболочка совместимости Variable.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости Variable.ToString()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.AllInstances.VarGet">
+            <summary>Задает оболочка совместимости Variable.get_Var()</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimVariable.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Fakes.ShimVariable.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает оболочка совместимости Variable.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.ConstructorString">
+            <summary>Задает оболочка совместимости Variable.Variable(String var)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.Diff">
+            <summary>Задает оболочка совместимости Variable.Diff()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.IsConstantGet">
+            <summary>Задает оболочка совместимости Variable.get_IsConstant()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.IsConstantSetBoolean">
+            <summary>Задает оболочка совместимости Variable.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.ToString">
+            <summary>Задает оболочка совместимости Variable.ToString()</summary>
+        </member>
+        <member name="P:Expression.Fakes.ShimVariable.VarGet">
+            <summary>Задает оболочка совместимости Variable.get_Var()</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubBinaryOperation">
+            <summary>Тип заглушки Expression.BinaryOperation</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.#ctor(Expression.Expr,Expression.Expr)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubBinaryOperation.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.AttachBackingFieldToOperand1">
+            <summary>Присоединение делегатов для эмуляции StubBinaryOperation.Operand1 как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.AttachBackingFieldToOperand2">
+            <summary>Присоединение делегатов для эмуляции StubBinaryOperation.Operand2 как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.Diff">
+            <summary>Задает заглушка Expr.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.Diff01">
+            <summary>Задает stub Expr.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubBinaryOperation.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubBinaryOperation</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.IsConstant">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.IsConstantGet">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.IsConstantSetBoolean">
+            <summary>Задает stub Expr.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.Operand1">
+            <summary>Задает stub BinaryOperation.get_Operand1()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.Operand1Get">
+            <summary>Задает stub BinaryOperation.get_Operand1()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.Operand1SetExpr">
+            <summary>Задает stub BinaryOperation.set_Operand1(Expr value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubBinaryOperation.Operand2">
+            <summary>Задает stub BinaryOperation.get_Operand2()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.Operand2Get">
+            <summary>Задает stub BinaryOperation.get_Operand2()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubBinaryOperation.Operand2SetExpr">
+            <summary>Задает stub BinaryOperation.set_Operand2(Expr value)</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubConstant">
+            <summary>Тип заглушки Expression.Constant</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.#ctor(System.Object)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubConstant.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubConstant.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Constant.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubConstant.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Constant.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.Diff">
+            <summary>Задает заглушка Constant.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubConstant.Diff01">
+            <summary>Задает stub Constant.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubConstant</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubConstant.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubConstant.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubConstant.IsConstant">
+            <summary>Задает stub Constant.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubConstant.IsConstantGet">
+            <summary>Задает stub Constant.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubConstant.IsConstantSetBoolean">
+            <summary>Задает stub Constant.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubConstant.ToString">
+            <summary>Задает заглушка Constant.ToString()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubConstant.ToString01">
+            <summary>Задает stub Constant.ToString()</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubExpr">
+            <summary>Тип заглушки Expression.Expr</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubExpr.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubExpr.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubExpr.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubExpr.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubExpr.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubExpr.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubExpr.Diff">
+            <summary>Задает заглушка Expr.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubExpr.Diff01">
+            <summary>Задает stub Expr.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubExpr.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubExpr</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubExpr.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubExpr.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubExpr.IsConstant">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubExpr.IsConstantGet">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubExpr.IsConstantSetBoolean">
+            <summary>Задает stub Expr.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubFunction">
+            <summary>Тип заглушки Expression.Function</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.#ctor(System.Object)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubFunction.Arg1">
+            <summary>Задает stub Function.get_Arg1()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.Arg1Get">
+            <summary>Задает stub Function.get_Arg1()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.Arg1SetExpr">
+            <summary>Задает stub Function.set_Arg1(Expr value)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.AttachBackingFieldToArg1">
+            <summary>Присоединение делегатов для эмуляции StubFunction.Arg1 как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubFunction.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubFunction.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.Diff">
+            <summary>Задает заглушка Expr.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.Diff01">
+            <summary>Задает stub Expr.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubFunction.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubFunction</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubFunction.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubFunction.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubFunction.IsConstant">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.IsConstantGet">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubFunction.IsConstantSetBoolean">
+            <summary>Задает stub Expr.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubUnaryOperation">
+            <summary>Тип заглушки Expression.UnaryOperation</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.#ctor(Expression.Expr)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubUnaryOperation.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.AttachBackingFieldToOperand">
+            <summary>Присоединение делегатов для эмуляции StubUnaryOperation.Operand как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubUnaryOperation.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Expr.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.Diff">
+            <summary>Задает заглушка Expr.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.Diff01">
+            <summary>Задает stub Expr.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubUnaryOperation.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubUnaryOperation</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubUnaryOperation.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubUnaryOperation.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubUnaryOperation.IsConstant">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.IsConstantGet">
+            <summary>Задает stub Expr.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.IsConstantSetBoolean">
+            <summary>Задает stub Expr.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubUnaryOperation.Operand">
+            <summary>Задает stub UnaryOperation.get_Operand()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.OperandGet">
+            <summary>Задает stub UnaryOperation.get_Operand()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubUnaryOperation.OperandSetExpr">
+            <summary>Задает stub UnaryOperation.set_Operand(Expr value)</summary>
+        </member>
+        <member name="T:Expression.Fakes.StubVariable">
+            <summary>Тип заглушки Expression.Variable</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.AttachBackingFieldToIsConstant">
+            <summary>Присоединение делегатов для эмуляции StubVariable.IsConstant как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubVariable.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.Compute(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Double})">
+            <summary>Задает заглушка Variable.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubVariable.ComputeIReadOnlyDictionaryOfStringDouble">
+            <summary>Задает stub Variable.Compute(IReadOnlyDictionary`2&lt;String,Double&gt; variableValues)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.Diff">
+            <summary>Задает заглушка Variable.Diff()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubVariable.Diff01">
+            <summary>Задает stub Variable.Diff()</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubVariable</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubVariable.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubVariable.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Fakes.StubVariable.IsConstant">
+            <summary>Задает stub Variable.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubVariable.IsConstantGet">
+            <summary>Задает stub Variable.get_IsConstant()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubVariable.IsConstantSetBoolean">
+            <summary>Задает stub Variable.set_IsConstant(Boolean value)</summary>
+        </member>
+        <member name="M:Expression.Fakes.StubVariable.ToString">
+            <summary>Задает заглушка Variable.ToString()</summary>
+        </member>
+        <member name="F:Expression.Fakes.StubVariable.ToString01">
+            <summary>Задает stub Variable.ToString()</summary>
+        </member>
+        <member name="T:Expression.Parsing.Fakes.ShimPars">
+            <summary>Тип оболочки совместимости для Expression.Parsing.Pars</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.ShimPars.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.ShimPars.#ctor(Expression.Parsing.Pars)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Expression.Parsing.Fakes.ShimPars.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.ShimPars.AllInstances.GetExprStringStringArray">
+            <summary>Задает оболочка совместимости Pars.GetExpr(String expression, String[] variables)</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.ShimPars.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.ShimPars.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.ShimPars.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.ShimPars.Bind(Expression.Parsing.InterfBase)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.ShimPars.Constructor">
+            <summary>Задает оболочка совместимости Pars.Pars()</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.ShimPars.GetExprStringStringArray">
+            <summary>Задает оболочка совместимости Pars.GetExpr(String expression, String[] variables)</summary>
+        </member>
+        <member name="T:Expression.Parsing.Fakes.StubInterfBase">
+            <summary>Тип заглушки Expression.Parsing.InterfBase</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.StubInterfBase.#ctor">
+            <summary>Инициализирует новый экземпляр type StubInterfBase</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.StubInterfBase.Expression#Parsing#InterfBase#GetExpr(System.String,System.String[])">
+            <summary>Задает заглушка InterfBase.GetExpr(String expression, String[] variables)</summary>
+        </member>
+        <member name="F:Expression.Parsing.Fakes.StubInterfBase.GetExprStringStringArray">
+            <summary>Задает stub InterfBase.GetExpr(String expression, String[] variables)</summary>
+        </member>
+        <member name="T:Expression.Parsing.Fakes.StubPars">
+            <summary>Тип заглушки Expression.Parsing.Pars</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.StubPars.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.StubPars.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Expression.Parsing.Fakes.StubPars.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubPars</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.StubPars.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Expression.Parsing.Fakes.StubPars.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>

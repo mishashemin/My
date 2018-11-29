@@ -1,0 +1,15 @@
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Владелец\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\MyVS\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\MyVS\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\MyVS\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\MyVS\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\MyVS\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\MyVS\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\MyVS\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\MyVS\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

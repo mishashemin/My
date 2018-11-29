@@ -1,0 +1,6 @@
+C:\Users\Владелец\source\repos\Expression\Expression\bin\Debug\Expression.dll
+C:\Users\Владелец\source\repos\Expression\Expression\bin\Debug\Expression.pdb
+C:\Users\Владелец\source\repos\Expression\Expression\obj\Debug\Expression.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\source\repos\Expression\Expression\obj\Debug\Expression.dll
+C:\Users\Владелец\source\repos\Expression\Expression\obj\Debug\Expression.pdb
+C:\Users\Владелец\source\repos\Expression\Expression\obj\Debug\Expression.csprojAssemblyReference.cache

@@ -1,0 +1,52 @@
+-a a 5
+-b b -5
+a+1 a 3
+1+a a 3
+a+b a 3 b 1
+a-1 a 3
+3-a a 1
+a-b a 3 b 1
+1/a a 3
+a/3 a 1
+a/b a 1 b 3
+1*a a 3
+a*1 a 3
+a*b a 3 b 1
+Pow(3,2)
+Pow(a,2) a 3
+Pow(3,a) a 2
+Pow(a,b) a 3 b 2
+Pow(a,e) a 3
+Pow(e,a) a 3
+Log(E)
+Log(2)
+Log(Pi)
+Log(a) a 10
+Log(10,10)
+Log(a,10) a 10
+Log(10,a) a 10
+Log(a,a) a 10
+Sin(30)
+Sin(a) a 30
+Cos(60)
+Cos(a) a 60
+Tan(45)
+Tan(a) a 45
+Ctan(45)
+Ctan(a) a 45
+Asin(0.5)
+Asin(a) a 0,5
+Acos(0.5)
+Acos(a) a 0,5
+Atan(1)
+Atan(a) a 1
+Actan(1)
+Actan(a) a 1
+Sh(2)
+Sh(a) a 2
+Ch(2)
+Ch(a) a 2
+Th(3)
+Th(a) a 3
+Cth(3)
+Cth(a) a 3
