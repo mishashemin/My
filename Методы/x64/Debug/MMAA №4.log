@@ -1,0 +1,9 @@
+﻿  graph.cpp
+c:\users\shemin.2017\desktop\mmaa №4\graph.cpp(53): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\shemin.2017\desktop\mmaa №4\graph.cpp(83): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\shemin.2017\desktop\mmaa №4\graph.cpp(94): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\shemin.2017\desktop\mmaa №4\graph.cpp(154): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+c:\users\shemin.2017\desktop\mmaa №4\main.cpp(28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  MMAA №4.vcxproj -> C:\Users\shemin.2017\Desktop\MMAA №4\x64\Debug\MMAA №4.exe
