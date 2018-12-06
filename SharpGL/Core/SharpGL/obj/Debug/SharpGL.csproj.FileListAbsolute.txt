@@ -1,0 +1,6 @@
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\bin\Debug\SharpGL.dll
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\bin\Debug\SharpGL.pdb
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\obj\Debug\SharpGL.csprojAssemblyReference.cache
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\obj\Debug\SharpGL.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\obj\Debug\SharpGL.dll
+C:\Users\Владелец\Desktop\sharpgl-master\source\SharpGL\Core\SharpGL\obj\Debug\SharpGL.pdb
