@@ -14,10 +14,11 @@ struct edge
 {
 	int a, b;
 	float lenth;
-	edge() :a(0), b(0), lenth(-1) 
+	edge() :a(0), b(0), lenth(-1)
 	{}
 	edge(int a, int b, float lenth = -1) : a(a), b(b), lenth(lenth)
 	{}
+
 
 	friend bool operator>(const edge& left, const edge& right) { return bool(left.lenth > right.lenth); }
 	friend bool operator<(const edge& left, const edge& right) { return bool(left.lenth < right.lenth); }
@@ -33,26 +34,15 @@ protected:
 	int vertexNum, ribNum;
 	vector<vector<int>> G;
 	vector<vector<float>> lenth;
-
+	vector<edge> spintree_graph;
+	vector<edge> _graph;
+	
 public:
 	virtual void read(fstream& file);
 	void out();
-
-	vector<edge> spintree();
-	vector<edge> spintree_v1();
-	vector<edge> spintreeKraskal();
-	vector<edge> spintreeKraskalv2();
-
+	void spintree_out();
+	vector<edge> spintree_Prim();
+	vector<edge> spintree_Kraskal();
 	graph();
 	~graph();
-};
-
-class oriented_graph : private graph
-{
-public :
-	void read(fstream& file);
-	vector<edge> transitive_closure();
-	vector<edge> transitive_closure_in_width();
-
-	vector<int> topological_sorting();
 };
